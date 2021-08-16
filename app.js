@@ -17,10 +17,12 @@ const sing = () =>{
         }
 
         allLyrics += secondLyrics;
-        allLyrics += lib;
+        allLyrics += lib + " open in browser";
 
         return allLyrics;
 
 }
 console.log(sing(allLyrics));
+
+alert("it works!")
 
